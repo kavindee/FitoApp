@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5740D9B12C1C83A200EE1D1D /* Fito Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5740D9B02C1C83A200EE1D1D /* Fito Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5740D9B62C1C83A200EE1D1D /* FitoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740D9B52C1C83A200EE1D1D /* FitoApp.swift */; };
+		5740D9B82C1C83A200EE1D1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740D9B72C1C83A200EE1D1D /* ContentView.swift */; };
+		5740D9BA2C1C83A300EE1D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5740D9B92C1C83A300EE1D1D /* Assets.xcassets */; };
+		5740D9BD2C1C83A300EE1D1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5740D9BC2C1C83A300EE1D1D /* Preview Assets.xcassets */; };
+		5740D9C72C1C83A300EE1D1D /* Fito_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740D9C62C1C83A300EE1D1D /* Fito_Watch_AppTests.swift */; };
+		5740D9D12C1C83A300EE1D1D /* Fito_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740D9D02C1C83A300EE1D1D /* Fito_Watch_AppUITests.swift */; };
+		5740D9D32C1C83A300EE1D1D /* Fito_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740D9D22C1C83A300EE1D1D /* Fito_Watch_AppUITestsLaunchTests.swift */; };
+		5740D9E42C1C83DA00EE1D1D /* ChallengeCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740D9E32C1C83DA00EE1D1D /* ChallengeCreationView.swift */; };
+		5740D9E62C1C841900EE1D1D /* ProgressTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740D9E52C1C841900EE1D1D /* ProgressTrackingView.swift */; };
+		5740D9E82C1C844000EE1D1D /* ChallengeInvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740D9E72C1C844000EE1D1D /* ChallengeInvitationView.swift */; };
+		5740D9EA2C1C845200EE1D1D /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740D9E92C1C845200EE1D1D /* LeaderboardView.swift */; };
+		5740D9EC2C1C846500EE1D1D /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5740D9EB2C1C846500EE1D1D /* AchievementsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5740D9B22C1C83A200EE1D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5740D9A42C1C83A200EE1D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5740D9AF2C1C83A200EE1D1D;
+			remoteInfo = "Fito Watch App";
+		};
+		5740D9C32C1C83A300EE1D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5740D9A42C1C83A200EE1D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5740D9AF2C1C83A200EE1D1D;
+			remoteInfo = "Fito Watch App";
+		};
+		5740D9CD2C1C83A300EE1D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5740D9A42C1C83A200EE1D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5740D9AF2C1C83A200EE1D1D;
+			remoteInfo = "Fito Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5740D9D92C1C83A300EE1D1D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5740D9B12C1C83A200EE1D1D /* Fito Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5740D9AA2C1C83A200EE1D1D /* Fito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5740D9B02C1C83A200EE1D1D /* Fito Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fito Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5740D9B52C1C83A200EE1D1D /* FitoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitoApp.swift; sourceTree = "<group>"; };
+		5740D9B72C1C83A200EE1D1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5740D9B92C1C83A300EE1D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5740D9BC2C1C83A300EE1D1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5740D9C22C1C83A300EE1D1D /* Fito Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fito Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5740D9C62C1C83A300EE1D1D /* Fito_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fito_Watch_AppTests.swift; sourceTree = "<group>"; };
+		5740D9CC2C1C83A300EE1D1D /* Fito Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fito Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5740D9D02C1C83A300EE1D1D /* Fito_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fito_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		5740D9D22C1C83A300EE1D1D /* Fito_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fito_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5740D9E32C1C83DA00EE1D1D /* ChallengeCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCreationView.swift; sourceTree = "<group>"; };
+		5740D9E52C1C841900EE1D1D /* ProgressTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTrackingView.swift; sourceTree = "<group>"; };
+		5740D9E72C1C844000EE1D1D /* ChallengeInvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeInvitationView.swift; sourceTree = "<group>"; };
+		5740D9E92C1C845200EE1D1D /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		5740D9EB2C1C846500EE1D1D /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5740D9AD2C1C83A200EE1D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5740D9BF2C1C83A300EE1D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5740D9C92C1C83A300EE1D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5740D9A32C1C83A200EE1D1D = {
+			isa = PBXGroup;
+			children = (
+				5740D9B42C1C83A200EE1D1D /* Fito Watch App */,
+				5740D9C52C1C83A300EE1D1D /* Fito Watch AppTests */,
+				5740D9CF2C1C83A300EE1D1D /* Fito Watch AppUITests */,
+				5740D9AB2C1C83A200EE1D1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5740D9AB2C1C83A200EE1D1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5740D9AA2C1C83A200EE1D1D /* Fito.app */,
+				5740D9B02C1C83A200EE1D1D /* Fito Watch App.app */,
+				5740D9C22C1C83A300EE1D1D /* Fito Watch AppTests.xctest */,
+				5740D9CC2C1C83A300EE1D1D /* Fito Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5740D9B42C1C83A200EE1D1D /* Fito Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5740D9B52C1C83A200EE1D1D /* FitoApp.swift */,
+				5740D9B72C1C83A200EE1D1D /* ContentView.swift */,
+				5740D9EB2C1C846500EE1D1D /* AchievementsView.swift */,
+				5740D9E92C1C845200EE1D1D /* LeaderboardView.swift */,
+				5740D9E52C1C841900EE1D1D /* ProgressTrackingView.swift */,
+				5740D9E72C1C844000EE1D1D /* ChallengeInvitationView.swift */,
+				5740D9E32C1C83DA00EE1D1D /* ChallengeCreationView.swift */,
+				5740D9B92C1C83A300EE1D1D /* Assets.xcassets */,
+				5740D9BB2C1C83A300EE1D1D /* Preview Content */,
+			);
+			path = "Fito Watch App";
+			sourceTree = "<group>";
+		};
+		5740D9BB2C1C83A300EE1D1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5740D9BC2C1C83A300EE1D1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5740D9C52C1C83A300EE1D1D /* Fito Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5740D9C62C1C83A300EE1D1D /* Fito_Watch_AppTests.swift */,
+			);
+			path = "Fito Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5740D9CF2C1C83A300EE1D1D /* Fito Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5740D9D02C1C83A300EE1D1D /* Fito_Watch_AppUITests.swift */,
+				5740D9D22C1C83A300EE1D1D /* Fito_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Fito Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5740D9A92C1C83A200EE1D1D /* Fito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5740D9DA2C1C83A300EE1D1D /* Build configuration list for PBXNativeTarget "Fito" */;
+			buildPhases = (
+				5740D9A82C1C83A200EE1D1D /* Resources */,
+				5740D9D92C1C83A300EE1D1D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5740D9B32C1C83A200EE1D1D /* PBXTargetDependency */,
+			);
+			name = Fito;
+			productName = Fito;
+			productReference = 5740D9AA2C1C83A200EE1D1D /* Fito.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5740D9AF2C1C83A200EE1D1D /* Fito Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5740D9D62C1C83A300EE1D1D /* Build configuration list for PBXNativeTarget "Fito Watch App" */;
+			buildPhases = (
+				5740D9AC2C1C83A200EE1D1D /* Sources */,
+				5740D9AD2C1C83A200EE1D1D /* Frameworks */,
+				5740D9AE2C1C83A200EE1D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fito Watch App";
+			productName = "Fito Watch App";
+			productReference = 5740D9B02C1C83A200EE1D1D /* Fito Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5740D9C12C1C83A300EE1D1D /* Fito Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5740D9DD2C1C83A300EE1D1D /* Build configuration list for PBXNativeTarget "Fito Watch AppTests" */;
+			buildPhases = (
+				5740D9BE2C1C83A300EE1D1D /* Sources */,
+				5740D9BF2C1C83A300EE1D1D /* Frameworks */,
+				5740D9C02C1C83A300EE1D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5740D9C42C1C83A300EE1D1D /* PBXTargetDependency */,
+			);
+			name = "Fito Watch AppTests";
+			productName = "Fito Watch AppTests";
+			productReference = 5740D9C22C1C83A300EE1D1D /* Fito Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5740D9CB2C1C83A300EE1D1D /* Fito Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5740D9E02C1C83A300EE1D1D /* Build configuration list for PBXNativeTarget "Fito Watch AppUITests" */;
+			buildPhases = (
+				5740D9C82C1C83A300EE1D1D /* Sources */,
+				5740D9C92C1C83A300EE1D1D /* Frameworks */,
+				5740D9CA2C1C83A300EE1D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5740D9CE2C1C83A300EE1D1D /* PBXTargetDependency */,
+			);
+			name = "Fito Watch AppUITests";
+			productName = "Fito Watch AppUITests";
+			productReference = 5740D9CC2C1C83A300EE1D1D /* Fito Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5740D9A42C1C83A200EE1D1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5740D9A92C1C83A200EE1D1D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5740D9AF2C1C83A200EE1D1D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5740D9C12C1C83A300EE1D1D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5740D9AF2C1C83A200EE1D1D;
+					};
+					5740D9CB2C1C83A300EE1D1D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5740D9AF2C1C83A200EE1D1D;
+					};
+				};
+			};
+			buildConfigurationList = 5740D9A72C1C83A200EE1D1D /* Build configuration list for PBXProject "Fito" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5740D9A32C1C83A200EE1D1D;
+			productRefGroup = 5740D9AB2C1C83A200EE1D1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5740D9A92C1C83A200EE1D1D /* Fito */,
+				5740D9AF2C1C83A200EE1D1D /* Fito Watch App */,
+				5740D9C12C1C83A300EE1D1D /* Fito Watch AppTests */,
+				5740D9CB2C1C83A300EE1D1D /* Fito Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5740D9A82C1C83A200EE1D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5740D9AE2C1C83A200EE1D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5740D9BD2C1C83A300EE1D1D /* Preview Assets.xcassets in Resources */,
+				5740D9BA2C1C83A300EE1D1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5740D9C02C1C83A300EE1D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5740D9CA2C1C83A300EE1D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5740D9AC2C1C83A200EE1D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5740D9E62C1C841900EE1D1D /* ProgressTrackingView.swift in Sources */,
+				5740D9B82C1C83A200EE1D1D /* ContentView.swift in Sources */,
+				5740D9EC2C1C846500EE1D1D /* AchievementsView.swift in Sources */,
+				5740D9E82C1C844000EE1D1D /* ChallengeInvitationView.swift in Sources */,
+				5740D9E42C1C83DA00EE1D1D /* ChallengeCreationView.swift in Sources */,
+				5740D9EA2C1C845200EE1D1D /* LeaderboardView.swift in Sources */,
+				5740D9B62C1C83A200EE1D1D /* FitoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5740D9BE2C1C83A300EE1D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5740D9C72C1C83A300EE1D1D /* Fito_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5740D9C82C1C83A300EE1D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5740D9D32C1C83A300EE1D1D /* Fito_Watch_AppUITestsLaunchTests.swift in Sources */,
+				5740D9D12C1C83A300EE1D1D /* Fito_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5740D9B32C1C83A200EE1D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5740D9AF2C1C83A200EE1D1D /* Fito Watch App */;
+			targetProxy = 5740D9B22C1C83A200EE1D1D /* PBXContainerItemProxy */;
+		};
+		5740D9C42C1C83A300EE1D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5740D9AF2C1C83A200EE1D1D /* Fito Watch App */;
+			targetProxy = 5740D9C32C1C83A300EE1D1D /* PBXContainerItemProxy */;
+		};
+		5740D9CE2C1C83A300EE1D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5740D9AF2C1C83A200EE1D1D /* Fito Watch App */;
+			targetProxy = 5740D9CD2C1C83A300EE1D1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5740D9D42C1C83A300EE1D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5740D9D52C1C83A300EE1D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5740D9D72C1C83A300EE1D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fito Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fito;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IT20643522.Fito.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		5740D9D82C1C83A300EE1D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fito Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fito;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IT20643522.Fito.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		5740D9DB2C1C83A300EE1D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Fito;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IT20643522.Fito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5740D9DC2C1C83A300EE1D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Fito;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IT20643522.Fito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5740D9DE2C1C83A300EE1D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IT20643522.Fito-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fito Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fito Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		5740D9DF2C1C83A300EE1D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IT20643522.Fito-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fito Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fito Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		5740D9E12C1C83A300EE1D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IT20643522.Fito-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Fito Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		5740D9E22C1C83A300EE1D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IT20643522.Fito-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Fito Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5740D9A72C1C83A200EE1D1D /* Build configuration list for PBXProject "Fito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5740D9D42C1C83A300EE1D1D /* Debug */,
+				5740D9D52C1C83A300EE1D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5740D9D62C1C83A300EE1D1D /* Build configuration list for PBXNativeTarget "Fito Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5740D9D72C1C83A300EE1D1D /* Debug */,
+				5740D9D82C1C83A300EE1D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5740D9DA2C1C83A300EE1D1D /* Build configuration list for PBXNativeTarget "Fito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5740D9DB2C1C83A300EE1D1D /* Debug */,
+				5740D9DC2C1C83A300EE1D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5740D9DD2C1C83A300EE1D1D /* Build configuration list for PBXNativeTarget "Fito Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5740D9DE2C1C83A300EE1D1D /* Debug */,
+				5740D9DF2C1C83A300EE1D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5740D9E02C1C83A300EE1D1D /* Build configuration list for PBXNativeTarget "Fito Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5740D9E12C1C83A300EE1D1D /* Debug */,
+				5740D9E22C1C83A300EE1D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5740D9A42C1C83A200EE1D1D /* Project object */;
+}
